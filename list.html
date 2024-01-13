@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="JavaScript" type="text/javascript" src="list.js"></script>
+    <link rel="icon" type="image/x-icon" href="/images/logo.svg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="list">
+    <div class="adaptive">
+        <div class="slidebar">
+            <div class="logo-rectangle"><img class="logo-slidebar" src="/images/logo.svg"></div>
+            <div class="icon"><img class="home" src="images/Home.svg"></div>
+            <div class="icon"><img class="notif" src="images/Vector.svg"></div>
+            <div class="icon"><img class="favorite" src="images/Vector (1).svg"></div>
+            <div class="icon"><img class="settings" src="images/Vector (2).svg"></div>
+            <div class="icon"><img class="groups" src="images/Vector (4).svg"></div>
+            <div class="slidebar3"><img class="logout" src="images/log out.svg"></div>
+        </div>
+        <div class="header"><h1>Welcome to </h1></div>
+        <div class="content">
+
+            <div class="container">
+                <div class="interior">
+                    <a class="btn" href="#open-modal"><button class="add-note-button btn-1" onclick="CreateNote()"><img
+                                src="images/plus.svg"></button></a>
+                </div>
+            </div>
+            <div id="open-modal" class="modal-window">
+                <div>
+                    <form>
+                        <a href="#" title="Close" class="modal-close">Close</a>
+                        <h1>Create note</h1>
+                        <textarea required type="text" class="note-text" id="note-text"></textarea>
+                        <br>
+                        <a onclick="CreateNote()" title="Close" type="submit" class="create-note">OK</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
